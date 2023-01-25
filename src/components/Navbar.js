@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar() {
@@ -32,11 +31,11 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <a href='' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                   Home
-                </a>
+                </Link>
               </li>
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 <a href='#cards__link' className='nav-links' onClick={closeMobileMenu}>
                   Projects
                 </a>
@@ -55,6 +54,11 @@ function Navbar() {
                 <a href='#contact' className='nav-links' onClick={closeMobileMenu}>
                   Contact
                 </a>
+              </li> */}
+              <li className='nav-item'>
+                <Link to="/Gallery" className='nav-links' onClick={closeMobileMenu}>
+                  Gallery
+                </Link>
               </li>
             </ul>
             {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}

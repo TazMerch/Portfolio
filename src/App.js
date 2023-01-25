@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Popup from './components/Popup';
-import setButtonPopup from './components/Contact'
+import Gallery from './components/pages/Gallery';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path='/' element={<Home/>} />
+            <Route path='Gallery' element={<Gallery/>} />
           </Routes>
         </Router>
       </>
