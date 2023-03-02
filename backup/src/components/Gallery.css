@@ -1,0 +1,44 @@
+.gallery {
+    padding: 5% 1% ;
+    background: #1d1d1d;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 0 30px; */
+}
+.carousele__container {
+    position: relative;
+}
+
+.carousel__container > h1 {
+    color: #e5e5e5;
+    position: absolute;
+}
+
+.carousel__items {
+    display: flex;
+    height: 150px;
+    gap: 10px;
+    list-style: none;
+}
+
+.carousel__item {
+    align-self: center;
+    z-index: 1;
+}
+.carousel__item__link {
+    
+}
+
+
+.carousel__item__img {
+    aspect-ratio: 16/9;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.carousel__item__img:hover {
+    height: 220px;
+    z-index: 1;
+}
