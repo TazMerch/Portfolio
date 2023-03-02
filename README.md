@@ -1,5 +1,5 @@
 # Taznow.com
-My first portfolio and React App.
+My portfolio
 
 This website was built using Reactjs. 
 
