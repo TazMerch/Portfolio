@@ -51,6 +51,9 @@
 .yt--link {
   text-decoration: none;
   color:  rgb(37, 101, 131);
+  transition-duration: .3s;
+  transition-property: color;
+  transition-timing-function: ease;
 }
 .yt--link:hover {
   text-decoration: none;

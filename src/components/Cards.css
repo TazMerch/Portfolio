@@ -59,13 +59,21 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 2px 3px rgba(49, 49, 49, 0.295);
-    -webkit-filter: drop-shadow(0 2px 3px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 2px 3px rgba(56, 125, 255, 0.017));
+    box-shadow: 0 0px 3px rgba(49, 49, 49, 0.40);
+    -webkit-filter: drop-shadow(0 0px 3px rgba(49, 49, 49, .40));
+    filter: drop-shadow(0 0px 3px rgba(49, 49, 49, .40));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
-    border: rgb(182, 182, 182) solid 1px;
+    transition-duration: .3s;
+    transition-property: box-shadow, -webkit-filter, filter;
+    transition-timing-function: ease;
+  }
+
+  .cards__item__link:hover {
+    box-shadow: 0 0px 12px rgba(49, 49, 49, 0.40);
+    -webkit-filter: drop-shadow(0 0px 12px rgba(49, 49, 49, .40));
+    filter: drop-shadow(0 0px 12px rgba(49, 49, 49, .40));
   }
   
   .cards__item__pic-wrap {
@@ -110,7 +118,7 @@
   }
   
   .cards__item__img:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
   }
   
   .cards__item__info {
@@ -137,6 +145,9 @@
     padding: 10px 15px;
     border-radius: 5px;
     width: fit-content;
+    transition-duration: .3s;
+    transition-property: background-color;
+    transition-timing-function: ease;
   }
 
   .github:hover {
