@@ -22,15 +22,15 @@ export default function Skills() {
                 <li className='skills__item' data-aos="fade-in">CSS</li>
                 <li className='skills__item' data-aos="fade-in">Javascript</li>
                 <li className='skills__item' data-aos="fade-in">ReactJS</li>
-                <li className='skills__item' data-aos="fade-in">Bootstrap</li>
                 <li className='skills__item' data-aos="fade-in">NGINX</li>
                 <li className='skills__item' data-aos="fade-in">JSON</li>
                 <li className='skills__item' data-aos="fade-in">XML</li>
                 <li className='skills__item' data-aos="fade-in">SQL</li>
-                <li className='skills__item' data-aos="fade-in">Java</li>
             </ul>
             <ul className='skills__items'>
+                <li className='skills__item' data-aos="fade-in">Java</li>
                 <li className='skills__item' data-aos="fade-in">PHP</li>
+                <li className='skills__item' data-aos="fade-in">Bootstrap</li>
                 <li className='skills__item' data-aos="fade-in">Node.js</li>
                 <li className='skills__item' data-aos="fade-in">Python 3.8</li>
                 <li className='skills__item' data-aos="fade-in">Git/Github</li>

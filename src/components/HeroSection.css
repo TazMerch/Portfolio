@@ -21,16 +21,16 @@
 
 .hero-container h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 90px;
     margin-top: -100px;
     font-weight: normal;
     text-shadow: 0 2px 3px rgba(17, 17, 17, 0.856);
 }
 
 .hero-container h2 {
-    margin-top: 8px;
+    margin-top: 0px;
     color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: normal;
     text-shadow: 0 2px 3px rgba(17, 17, 17, 0.856);
 }
@@ -46,14 +46,26 @@
         /* background-color: rgb(24, 24, 24); */
     }
 
-    .hero-container h1 {
+    /* .hero-container h1 {
         font-size: 50px;
         font-weight: normal;
-    }
+    } */
+
+
 }
 @media screen and (max-width: 1200px){
     video {
         display: none;
+    }
+
+    .hero-container h1 {
+        font-size: 70px;
+        font-weight: normal;
+    }
+
+    .hero-container h2 {
+        font-size: 60px;
+        font-weight: normal;
     }
 
     .hero-container {
@@ -62,7 +74,7 @@
         object-fit: cover;
         background-position: center;
         background-attachment: scroll;
-        background-position-y: -170px;
+        /* background-position-y: -170px; */
     }
 }
 
@@ -74,13 +86,18 @@
     }
     
     .hero-container h2 {
-        font-size: 25px;
+        font-size: 33px;
         font-weight: normal;
     }
 
     .hero-btns {
         margin: 15px;
         flex-direction: column;
+    }
+
+    .btn-mobile > .btn--large {
+        padding: 9px 20px;
+        font-size: 15px;
     }
 }
 
@@ -91,6 +108,6 @@
     }
     
     .hero-container h2 {
-        font-size: 23px;
+        font-size: 29px;
     }
 }

@@ -61,6 +61,11 @@
 }
 
 @media only screen and (max-width: 960px) {
+
+  #about {
+    padding: 3em 2em;
+  }
+
   #about__link {
     position: relative;
     top: calc(-4em + -80px);

@@ -185,7 +185,7 @@
     }
     
     #cards {
-      padding: 4rem 2rem;
+      padding: 4rem .5rem;
     }
     
     .cards__item__text {
